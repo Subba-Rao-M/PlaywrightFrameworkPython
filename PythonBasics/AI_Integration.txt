@@ -1,0 +1,23 @@
+install in claude code npm install -g @anthropic-ai/claude-code
+check in pycharm or vs code work space
+
+Go to path of framework where code is available
+
+clck on claude icon and claude mode will be opened
+ask questions in command prompt
+
+examples: what framework this project is using?
+what design pattern is followed in this project?
+is project follows inheritance?
+refactor this file filename with comment ***
+
+Integrate MCP with claude
+so clade will have knowledge of playwrights internal logic
+and convert english described text to playwright code
+Detailed prompting information should be given to make this working
+
+
+Perform below steps manually first on browser and understand the flow and generate the code in existing
+framework standards and architecture followed using page object model.
+
+Steps like BDD given
