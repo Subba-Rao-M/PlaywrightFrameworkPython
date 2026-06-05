@@ -1,0 +1,41 @@
+Large Language Model(LLM)
+AI trained on massive text data to understand and generate human - like language
+Text In -> Text Out
+learns patterns from billions of examples
+Applications: gpt-4, gemini, llma, Opus 4.8 etc
+
+Key Characteristicks:
+1.Understand the context: Can follow conversations
+2. Generate coherent text: Writes like human
+3. Task-agnostic: Can do many language tasks
+4. No Actions - Generates only text
+
+Real world examples: Github copilot, chatgpt,
+
+Limitations:
+Cannot access real time data due to knowledge cutoff date
+may hallucinate or generate incorrect info
+Lacks true understanding - just pattern recognition
+Ethical concerns: Bias, misinformation, misuse
+
+
+From LLM to AI Agents:
+1. LLM is text in - > text out and ai agent is text in - > Action - > Results
+2. LLM is passive responder and ai agent is active problem solver
+3. LLM dont have external access and ai agents connected to external systems
+4. LLM one shot interaction and ai agents multi step reasoning
+
+
+LLM(Brain) + Tools(Actions like hands) + autonomy(Decision Making) = AI Agents
+
+Real time AI agent examples:
+1. Personal Assistant: Book a flight to Paris - > Search flight - > compare prices  -> book ticket
+2. Code Agent: Fix the bug in my repository - > analyze the code - identify the issue - > fix the issue - > commit code
+3. Data analysis agent - > Generate monthly sales report - Queries the data base - > process data - > visualize
+
+AI agent are autonomous system that can perfom any tasks themselves by making decisions and taking actions
+Ai agents are
+goal orianted
+can access tools
+decision making capabilities
+interactive execution
