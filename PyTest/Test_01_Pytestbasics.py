@@ -1,5 +1,10 @@
+#pip install pytest
+
+# any pytest test case should start with test or test_ or end with _test
+
 #define the method name with prefix test
 #all preconditions can be marked as fixture
+# if multiple test methods have same name, another test will override the first one instead of showing error
 
 #Add the fixture to methods and pass the method name as argument in test method
 #Scope = function - runs before each function
@@ -21,6 +26,8 @@ def precondition():
 
 def testfirstcode(precondition):
     print("TC01_1 -First Test Executed")
+    msg = "Hello"
+    assert msg == "Hello"
 
 def test_nextcode(precondition):
     print("TC01_2 - 1Next Test Executed")

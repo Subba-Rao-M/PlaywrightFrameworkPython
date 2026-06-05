@@ -7,7 +7,7 @@ for i in obj:
 print("End of loop")
 
 # To print the list with multipled by 2
-print("Multiply value by2 ")
+print("Multiply value by 2")
 for i in obj:
     print(i*2)
 print("End of loop for *2")

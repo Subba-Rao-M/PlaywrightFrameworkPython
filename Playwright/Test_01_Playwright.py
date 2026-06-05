@@ -31,3 +31,11 @@ def test_playwrightpagefixture(page:Page):
 # Go To Terminal and give below command
 # playwright codegen baseurl
 
+# to install playwright
+# pip install playwright pytest pytest-playwright
+# playwright install -- to install browsers
+# pip show playwright - to know installed details
+# pip is python install packages where as in java its referred as jars using maven etc
+# pip install -U pytest - where U is to upgrade the latest versions
+
+

@@ -4,7 +4,7 @@ ItemsInCart = 0
 def add_to_cart(items_to_add):
     global ItemsInCart
     if items_to_add < 0:
-        raise Exception("Cannot add a negative number of items.")
+        raise Exception("Cannot add a negative number of items.") # to raise exception with custom messages
 
     if ItemsInCart + items_to_add > 5:
         raise Exception("Cart limit exceeded.")
@@ -18,6 +18,7 @@ try:
     add_to_cart(2)  # Add 2 items
     add_to_cart(-1)  # This should raise an exception
 except Exception as e:
+    print("Items in card is not matching requited data")
     print(e)
 finally:
     print("Close the connection and end program")

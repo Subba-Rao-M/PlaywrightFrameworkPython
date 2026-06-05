@@ -26,7 +26,14 @@ def testseconadcode(precondition, secondwork): # return value from precondition 
 def testthirdcode(precondition, secondwork): # return value from precondition catched here
     print("TC01_1 -Third Test Executed")
 #Run pytest from cmd
-#run all test files -> pytest -s
+
+#run all pytests - > py.test
+#run all test files -> pytest -v -s
+#v - verbose more information about pytests
+#s - > to show console logs in output
+# To run based on keyword in testcase name
+# pytest -k CreditCard -v -s # test cases with method name having text credit card will be run
+# k stands for method name
 #runSingle file - > pytest filename
 #run single function from a test file - pytest filename::functionname
 
