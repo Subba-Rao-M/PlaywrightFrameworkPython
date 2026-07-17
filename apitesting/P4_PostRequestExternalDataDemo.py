@@ -2,7 +2,7 @@ import requests
 
 from apitesting.PayLoad import addBookPayload
 
-addbook_response =requests.post('http://216.10.245.166/Library/Addbook.php', json = addBookPayload("PM730"), headers= {"Content-Type": "application/json"},)
+addbook_response =requests.post('http://216.10.245.166/Library/Addbook.php', json = addBookPayload("PM730", "9005"), headers= {"Content-Type": "application/json"},)
 
 
 

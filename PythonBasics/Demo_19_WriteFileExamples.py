@@ -14,3 +14,4 @@ with open('demofile.txt', 'r') as reader:
 
 
 #With statement is used for exception handling where open, edit saving and closing file is involved
+# with statement internally handles the opening and closing of file, even if exception occurs it will close the file

@@ -2,6 +2,9 @@
 #Similar to Arrays in java
 #List allows multiple values with different data types
 # List value are stored inside []
+# lists are mutable means we can update the list values
+
+
 values = [1, 2, 3.5, "Testing", 4, 5]
 print(values[0])#1
 print(values[3])#Testing

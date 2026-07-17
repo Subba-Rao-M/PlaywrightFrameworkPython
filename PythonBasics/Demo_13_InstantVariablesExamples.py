@@ -8,6 +8,7 @@ class Calculator:
         self.firstNumber = a
         self.secondNumber = b
         #self is object reference when calling class methods or data, obj is passed as first parameter using self keyword
+        # self keyword is class instance reference
         print("Instance variables created")
 
     def getdata(self):

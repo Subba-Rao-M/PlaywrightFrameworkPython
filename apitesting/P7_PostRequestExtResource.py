@@ -9,7 +9,7 @@ from utilities.configurations import getConfig
 endpoint = getConfig()['API']['endpoint'] # read the endpoint value from properties file
 headers = {"Content-Type": "application/json"}
 ## call api resources class to get the resource url
-addbook_response =requests.post(endpoint+ApiResources.addBook, json = addBookPayload("PM730"), headers= headers,)
+addbook_response =requests.post(endpoint+ApiResources.addBook, json = addBookPayload("PM730", "8001"), headers= headers,)
 
 response_json = addbook_response.json()
 print(response_json)

@@ -9,7 +9,7 @@ config.read('utilities/properties.ini') # read the properties file and store the
 
 endpoint = config['API']['endpoint'] # read the endpoint value from properties file
 
-addbook_response =requests.post(endpoint+"/Library/Addbook.php", json = addBookPayload("PM730"), headers= {"Content-Type": "application/json"},)
+addbook_response =requests.post(endpoint+"/Library/Addbook.php", json = addBookPayload("PM730", "9006"), headers= {"Content-Type": "application/json"},)
 
 response_json = addbook_response.json()
 print(response_json)

@@ -33,9 +33,26 @@ Real time AI agent examples:
 2. Code Agent: Fix the bug in my repository - > analyze the code - identify the issue - > fix the issue - > commit code
 3. Data analysis agent - > Generate monthly sales report - Queries the data base - > process data - > visualize
 
-AI agent are autonomous system that can perfom any tasks themselves by making decisions and taking actions
+AI agent are autonomous system that can perform any tasks themselves by making decisions and taking actions
 Ai agents are
-goal orianted
+goal oriented
 can access tools
 decision making capabilities
 interactive execution
+
+MCP Servers:
+MCP means Model context protocal
+MCP servers are specialized servers that host and manage large language models (LLMs)
+and provide an interface for AI agents to interact with these models.
+
+They enable AI agents to access the capabilities of LLMs, such as natural language understanding
+and generation, by sending requests to the MCP server and receiving responses.
+
+MCP servers handle the communication between AI agents and LLMs,
+allowing agents to leverage the power of LLMs for various tasks,
+such as answering questions, generating text, and performing language-based reasoning.
+They play a crucial role in enabling AI agents to utilize LLMs effectively and efficiently.
+
+MCP servers can be hosted on cloud platforms or on-premises,
+depending on the requirements of the application and the scale of the LLM being used.
+
